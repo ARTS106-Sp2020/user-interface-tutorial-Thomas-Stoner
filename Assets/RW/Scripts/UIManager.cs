@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
   public void OpenSettings()
     {
         startButton.SetBool("isHidden", true);
-        settingsButton.setBool("isHidden", true);
+        settingsButton.SetBool("isHidden", true);
     }
   public void StartGame()
     {
